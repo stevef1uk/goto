@@ -5,10 +5,5 @@ provider:
 functions:
   http-go:
     lang: golang-http
-    build_args:
-      TARGETPLATFORM: linux/arm
     handler: ./http-go
     image: http-go:latest
-    environment:
-      TARGETPLATFORM: linux/arm
-
