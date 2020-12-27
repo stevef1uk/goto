@@ -8,5 +8,5 @@ functions:
     handler: ./http-go
     image: http-go:latest
     environment:
-     TARGETPLATFORM: linux/arm64
+     TARGETPLATFORM: linux/arm
 
