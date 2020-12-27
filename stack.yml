@@ -3,8 +3,8 @@ provider:
   name: openfaas
   gateway: http://127.0.0.1:31112
 functions:
-  goto:
-    lang: node12
-    handler: ./goto
-    image: goto:latest
+  http-go:
+    lang: golang-http
+    handler: ./http-go
+    image: http-go:latest
 
